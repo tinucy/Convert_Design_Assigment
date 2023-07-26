@@ -1,0 +1,41 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40rem;
+  padding-left: 150rem;
+  padding-right: 150rem;
+  height: 50rem;
+  font-size: 20rem;
+  // align-items: center;
+  //text-align: center;
+  &__logo {
+    display: flex;
+    //not working
+    .nav__lblock {
+      //padding: 10rem;
+      color: var(--elated);
+    }
+  }
+
+  &__links {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 3;
+    align-items: center;
+    padding: 0 250rem;
+  }
+
+  &__drop__link {
+    display: flex;
+  }
+
+  &__button {
+    background-color: var(--elated);
+    color: var(--skills);
+    border-radius: 5rem;
+    border: var(--skills);
+    font-size: 17rem;
+    padding: 25rem;
+    text-align: center;
+  }
+}
