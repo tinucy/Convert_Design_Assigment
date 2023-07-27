@@ -2,16 +2,18 @@
   display: flex;
   justify-content: space-between;
   margin-top: 40rem;
-  padding-left: 150rem;
-  padding-right: 150rem;
+  padding-left: 200rem;
+  padding-right: 200rem;
   height: 50rem;
   font-size: 20rem;
+  font-family: "Rasa Regular";
   // align-items: center;
   //text-align: center;
   &__logo {
     display: flex;
+    align-items: center;
     //not working
-    .nav__lblock {
+    span {
       //padding: 10rem;
       color: var(--elated);
     }
@@ -19,10 +21,8 @@
 
   &__links {
     display: flex;
-    justify-content: space-between;
-    flex-grow: 3;
     align-items: center;
-    padding: 0 250rem;
+    gap: 25rem;
   }
 
   &__drop__link {
@@ -33,9 +33,8 @@
     background-color: var(--elated);
     color: var(--skills);
     border-radius: 5rem;
-    border: var(--skills);
+    border: 2rem solid var(--skills);
     font-size: 17rem;
-    padding: 25rem;
-    text-align: center;
+    padding: 0 25rem;
   }
 }

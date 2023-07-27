@@ -1,17 +1,16 @@
 .second__section {
-  margin-top: 40rem;
-  margin-left: 150rem;
-  margin-right: 150rem;
+  margin-top: 6cqw;
+  margin-left: 200rem;
+  margin-right: 200rem;
   display: flex;
-  border: 5px red dotted;
   justify-content: space-between;
 
   &__child1 {
     display: flex;
     flex-direction: column;
-    scroll-margin-left: 0; // not working
-    border: 1px blue dotted;
+    //border: 2rem solid var(--skills);
     max-width: fit-content;
+    //border-radius: 5rem;
 
     &--button {
       border: none;
@@ -26,16 +25,14 @@
       padding: 10rem 0;
       font-family: "Rasa";
       font-size: 70rem;
-      border: 1px red dotted;
+      //border: 1px red dotted;
 
       strong {
         color: var(--light);
       }
     }
     &--banking {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
+      margin: 5rem 0rem;
 
       p {
         //text-align: justify;
@@ -43,15 +40,46 @@
         font-family: "rasa";
       }
 
-      &--banking_button {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
+      button {
+        margin-top: 20rem;
+        font-size: 10rem;
+        border-radius: 10rem;
+        max-width: fit-content;
+        padding: 5rem;
+        border: 1rem solid var(--skills);
 
-        :first-child {
-          background-color: var(--joy);
+        //background-color: var(--elated);
+
+        //::first-child
+        .m1 {
+          background-color: var(--elated);
+          margin-right: 50rem;
+          // background-color: var(--joy);
+          // border-radius: 2rem;
+          // color: var(--skills);
+          // border-color: var(--skills);
+        }
+
+        :last-child {
+          margin-left: 200rem;
+          // background-color: var(--elated);
+          // font-family: "Rasa";
+          // border-radius: 2rem;
+          // color: var(--skills);
+          // border-color: var(--skills);
         }
       }
     }
+
+    &__lastSec {
+      display: flex;
+      flex-direction: row;
+    }
+  }
+
+  &__child2 {
+    border: 2rem solid var(--skills);
+    max-width: fit-content;
+    border-radius: 5rem;
   }
 }

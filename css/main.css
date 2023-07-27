@@ -8,6 +8,14 @@
   --ayo: #e1e1e1;
 }
 
+@font-face {
+  font-family: "Rasa Regular";
+  src: url(../../fonts/Rasa/static/Rasa-Regular.ttf);
+}
+@font-face {
+  font-family: "Rasa";
+  src: url(../../fonts/Rasa/static/Rasa-Bold.ttf);
+}
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -413,23 +421,23 @@ h1 {
   display: flex;
   justify-content: space-between;
   margin-top: 40rem;
-  padding-left: 150rem;
-  padding-right: 150rem;
+  padding-left: 200rem;
+  padding-right: 200rem;
   height: 50rem;
   font-size: 20rem;
+  font-family: "Rasa Regular";
 }
 .nav__logo {
   display: flex;
+  align-items: center;
 }
-.nav__logo .nav__lblock {
+.nav__logo span {
   color: var(--elated);
 }
 .nav__links {
   display: flex;
-  justify-content: space-between;
-  flex-grow: 3;
   align-items: center;
-  padding: 0 250rem;
+  gap: 25rem;
 }
 .nav__drop__link {
   display: flex;
@@ -438,25 +446,21 @@ h1 {
   background-color: var(--elated);
   color: var(--skills);
   border-radius: 5rem;
-  border: var(--skills);
+  border: 2rem solid var(--skills);
   font-size: 17rem;
-  padding: 25rem;
-  text-align: center;
+  padding: 0 25rem;
 }
 
 .second__section {
-  margin-top: 40rem;
-  margin-left: 150rem;
-  margin-right: 150rem;
+  margin-top: 6cqw;
+  margin-left: 200rem;
+  margin-right: 200rem;
   display: flex;
-  border: 5px red dotted;
   justify-content: space-between;
 }
 .second__section__child1 {
   display: flex;
   flex-direction: column;
-  scroll-margin-left: 0;
-  border: 1px blue dotted;
   max-width: -moz-fit-content;
   max-width: fit-content;
 }
@@ -474,25 +478,40 @@ h1 {
   padding: 10rem 0;
   font-family: "Rasa";
   font-size: 70rem;
-  border: 1px red dotted;
 }
 .second__section__child1--Money_finger strong {
   color: var(--light);
 }
 .second__section__child1--banking {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  margin: 5rem 0rem;
 }
 .second__section__child1--banking p {
   font-size: 12rem;
   font-family: "rasa";
 }
-.second__section__child1--banking--banking_button {
+.second__section__child1--banking button {
+  margin-top: 20rem;
+  font-size: 10rem;
+  border-radius: 10rem;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  padding: 5rem;
+  border: 1rem solid var(--skills);
+}
+.second__section__child1--banking button .m1 {
+  background-color: var(--elated);
+  margin-right: 50rem;
+}
+.second__section__child1--banking button :last-child {
+  margin-left: 200rem;
+}
+.second__section__child1__lastSec {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
 }
-.second__section__child1--banking--banking_button :first-child {
-  background-color: var(--joy);
+.second__section__child2 {
+  border: 2rem solid var(--skills);
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  border-radius: 5rem;
 }/*# sourceMappingURL=main.css.map */
