@@ -1,5 +1,5 @@
 .second__section {
-  margin-top: 6cqw;
+  margin-top: 100rem;
   margin-left: 200rem;
   margin-right: 200rem;
   display: flex;
@@ -15,14 +15,15 @@
     &--button {
       border: none;
       background-color: var(--elated);
-      border-radius: 10rem;
+      border-radius: 20rem;
       max-width: fit-content;
-      padding: 2rem 5rem;
-      font-size: 10rem;
-      font-weight: bolder;
+      padding: 5rem 15rem;
+      font-size: 18rem;
+      font-family: "Rasa Semi";
     }
+
     &--Money_finger {
-      padding: 10rem 0;
+      padding: 5rem 0;
       font-family: "Rasa";
       font-size: 70rem;
       //border: 1px red dotted;

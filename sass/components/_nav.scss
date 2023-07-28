@@ -5,8 +5,9 @@
   padding-left: 200rem;
   padding-right: 200rem;
   height: 50rem;
-  font-size: 20rem;
+  font-size: 22rem;
   font-family: "Rasa Regular";
+
   // align-items: center;
   //text-align: center;
   &__logo {
@@ -22,19 +23,22 @@
   &__links {
     display: flex;
     align-items: center;
-    gap: 25rem;
+    gap: 40rem;
   }
 
   &__drop__link {
     display: flex;
+    align-items: center;
   }
 
   &__button {
     background-color: var(--elated);
     color: var(--skills);
-    border-radius: 5rem;
+    border-radius: 7rem;
     border: 2rem solid var(--skills);
-    font-size: 17rem;
+    font-family: "Rasa";
+    font-size: 20rem;
     padding: 0 25rem;
+    box-shadow: 3rem 3rem var(--skills);
   }
 }
