@@ -497,15 +497,24 @@ h1 {
   font-family: "rasa";
   color: var(--joy);
 }
-.second__section__child1--banking button {
-  margin-top: 20rem;
+.second__section__child1--banking__button :first-child {
+  border: 2rem solid var(--skills);
+  border-radius: 5rem;
+  padding: 10rem 20rem;
+  box-shadow: 2rem 2rem var(--skills);
+  font-size: 12rem;
+  background-color: var(--excited);
+  color: var(--skills);
 }
-.second__section__child1--banking button .m1 {
+.second__section__child1--banking__button :last-child {
+  border: 2rem solid var(--skills);
+  border-radius: 5rem;
+  padding: 10rem 20rem;
+  box-shadow: 2rem 2rem var(--skills);
+  font-size: 12rem;
   background-color: var(--elated);
-  margin-right: 50rem;
-}
-.second__section__child1--banking button :last-child {
-  margin-left: 200rem;
+  color: var(--skills);
+  margin-left: 40rem;
 }
 .second__section__child1__lastSec {
   display: flex;
