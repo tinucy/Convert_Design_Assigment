@@ -44,7 +44,7 @@
 
       &__button {
         :first-child {
-          font: "Inter";
+          font-family: "Inter Bold";
           border: 2rem solid var(--skills);
           border-radius: 5rem;
           padding: 10rem 20rem;
@@ -55,7 +55,7 @@
         }
 
         :last-child {
-          font: Inter;
+          font-family: "Inter Bold";
           border: 2rem solid var(--skills);
           border-radius: 5rem;
           padding: 10rem 20rem;

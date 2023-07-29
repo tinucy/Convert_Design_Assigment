@@ -506,7 +506,7 @@ h1 {
   color: var(--joy);
 }
 .second__section__child1--banking__button :first-child {
-  font: "Inter";
+  font-family: "Inter Bold";
   border: 2rem solid var(--skills);
   border-radius: 5rem;
   padding: 10rem 20rem;
@@ -516,7 +516,7 @@ h1 {
   color: var(--skills);
 }
 .second__section__child1--banking__button :last-child {
-  font: Inter;
+  font-family: "Inter Bold";
   border: 2rem solid var(--skills);
   border-radius: 5rem;
   padding: 10rem 20rem;
