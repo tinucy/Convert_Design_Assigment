@@ -493,17 +493,12 @@ h1 {
   margin: 5rem 0rem;
 }
 .second__section__child1--banking p {
-  font-size: 12rem;
+  font-size: 18rem;
   font-family: "rasa";
+  color: var(--joy);
 }
 .second__section__child1--banking button {
   margin-top: 20rem;
-  font-size: 10rem;
-  border-radius: 10rem;
-  max-width: -moz-fit-content;
-  max-width: fit-content;
-  padding: 5rem;
-  border: 1rem solid var(--skills);
 }
 .second__section__child1--banking button .m1 {
   background-color: var(--elated);
