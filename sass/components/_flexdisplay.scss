@@ -70,17 +70,29 @@
 
     &__lastSec {
       display: flex;
-      flex-direction: row;
+      margin: 20rem 0 20rem;
 
-      :first-child {
-        font: "Rasa";
+      .stat {
+        display: flex;
+        align-items: center;
+
+        :first-child {
+          font-family: "Rasa";
+          font-size: 30rem;
+        }
+
+        :last-child {
+          font-family: "Rasa Regular";
+          font-size: 10rem;
+          margin-right: 20rem;
+        }
       }
     }
   }
-
-  &__child2 {
-    border: 2rem solid var(--skills);
-    max-width: fit-content;
-    border-radius: 5rem;
-  }
 }
+
+// &__child2 {
+//   border: 2rem solid var(--skills);
+//   max-width: fit-content;
+//   border-radius: 5rem;
+// }

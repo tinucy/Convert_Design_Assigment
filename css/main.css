@@ -528,14 +528,18 @@ h1 {
 }
 .second__section__child1__lastSec {
   display: flex;
-  flex-direction: row;
+  margin: 20rem 0 20rem;
 }
-.second__section__child1__lastSec :first-child {
-  font: "Rasa";
+.second__section__child1__lastSec .stat {
+  display: flex;
+  align-items: center;
 }
-.second__section__child2 {
-  border: 2rem solid var(--skills);
-  max-width: -moz-fit-content;
-  max-width: fit-content;
-  border-radius: 5rem;
+.second__section__child1__lastSec .stat :first-child {
+  font-family: "Rasa";
+  font-size: 30rem;
+}
+.second__section__child1__lastSec .stat :last-child {
+  font-family: "Rasa Regular";
+  font-size: 10rem;
+  margin-right: 20rem;
 }/*# sourceMappingURL=main.css.map */
