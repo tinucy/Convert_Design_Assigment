@@ -20,6 +20,14 @@
   font-family: "Rasa Semi";
   src: url(../../fonts/Rasa/static/Rasa-SemiBold.ttf);
 }
+@font-face {
+  font-family: "Inter";
+  src: url(../../fonts/Inter/static/Inter-Regular.ttf);
+}
+@font-face {
+  font-family: "Inter Bold";
+  src: url(../../fonts/Inter/static/Inter-Bold.ttf);
+}
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -498,6 +506,7 @@ h1 {
   color: var(--joy);
 }
 .second__section__child1--banking__button :first-child {
+  font: "Inter";
   border: 2rem solid var(--skills);
   border-radius: 5rem;
   padding: 10rem 20rem;
@@ -507,6 +516,7 @@ h1 {
   color: var(--skills);
 }
 .second__section__child1--banking__button :last-child {
+  font: Inter;
   border: 2rem solid var(--skills);
   border-radius: 5rem;
   padding: 10rem 20rem;
@@ -519,6 +529,9 @@ h1 {
 .second__section__child1__lastSec {
   display: flex;
   flex-direction: row;
+}
+.second__section__child1__lastSec :first-child {
+  font: "Rasa";
 }
 .second__section__child2 {
   border: 2rem solid var(--skills);

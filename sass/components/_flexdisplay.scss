@@ -44,6 +44,7 @@
 
       &__button {
         :first-child {
+          font: "Inter";
           border: 2rem solid var(--skills);
           border-radius: 5rem;
           padding: 10rem 20rem;
@@ -54,6 +55,7 @@
         }
 
         :last-child {
+          font: Inter;
           border: 2rem solid var(--skills);
           border-radius: 5rem;
           padding: 10rem 20rem;
@@ -69,6 +71,10 @@
     &__lastSec {
       display: flex;
       flex-direction: row;
+
+      :first-child {
+        font: "Rasa";
+      }
     }
   }
 
