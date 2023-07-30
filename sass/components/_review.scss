@@ -1,0 +1,40 @@
+.review {
+  display: flex;
+  margin-top: 80rem;
+  margin-left: 200rem;
+  margin-right: 200rem;
+  gap: 25rem;
+
+  h2 {
+    font-family: "Rasa";
+  }
+
+  h5 {
+    font-family: "Inter Mdeium";
+  }
+
+  &__card {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    border: 2rem solid var(--skills);
+    box-shadow: 2rem 2rem var(--skills);
+    padding: 30rem 30rem;
+    align-items: flex-start;
+    border-radius: 10rem;
+
+    &--bgcolour {
+      background-color: var(--light);
+    }
+
+    h3 {
+      font-family: "Inter SemiBold";
+      font-size: 12rem;
+    }
+
+    h5 {
+      font-family: "Inter Medium";
+      font-size: 8rem;
+    }
+  }
+}

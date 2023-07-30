@@ -32,6 +32,14 @@
   font-family: "Inter Bold";
   src: url(../../fonts/Inter/static/Inter-Bold.ttf);
 }
+@font-face {
+  font-family: "Inter SemiBold";
+  src: url(../../fonts/Inter/static/Inter-SemiBold.ttf);
+}
+@font-face {
+  font-family: "Inter Medium";
+  src: url(../../fonts/Inter/static/Inter-Medium.ttf);
+}
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -608,4 +616,39 @@ h1 {
   height: 60rem;
   align-items: center;
   gap: 30rem;
+}
+
+.review {
+  display: flex;
+  margin-top: 80rem;
+  margin-left: 200rem;
+  margin-right: 200rem;
+  gap: 25rem;
+}
+.review h2 {
+  font-family: "Rasa";
+}
+.review h5 {
+  font-family: "Inter Mdeium";
+}
+.review__card {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  border: 2rem solid var(--skills);
+  box-shadow: 2rem 2rem var(--skills);
+  padding: 30rem 30rem;
+  align-items: flex-start;
+  border-radius: 10rem;
+}
+.review__card--bgcolour {
+  background-color: var(--light);
+}
+.review__card h3 {
+  font-family: "Inter SemiBold";
+  font-size: 12rem;
+}
+.review__card h5 {
+  font-family: "Inter Medium";
+  font-size: 8rem;
 }/*# sourceMappingURL=main.css.map */
