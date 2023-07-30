@@ -17,6 +17,10 @@
   src: url(../../fonts/Rasa/static/Rasa-Bold.ttf);
 }
 @font-face {
+  font-family: "Rasa Medium";
+  src: url(../../fonts/Rasa/static/Rasa-Medium.ttf);
+}
+@font-face {
   font-family: "Rasa Semi";
   src: url(../../fonts/Rasa/static/Rasa-SemiBold.ttf);
 }
@@ -549,6 +553,7 @@ h1 {
   max-width: -moz-fit-content;
   max-width: fit-content;
   border-radius: 5rem;
+  box-shadow: 2rem 2rem var(--skills);
 }
 .second__section__child2 :first-child {
   align-items: center;
@@ -562,7 +567,7 @@ h1 {
   font-size: 30rem;
   background-color: var(--elated);
   position: absolute;
-  transform: translate(-600px, 400px);
+  transform: translate(-600rem, 400rem);
 }
 
 .payment_schemes {
@@ -574,7 +579,33 @@ h1 {
   background-color: var(--excited);
 }
 
-.features {
+.spec_feact {
+  font-family: "Rasa";
+  font-size: 30rem;
+  margin: 70rem 200rem 0rem 200rem;
+  text-shadow: 1.5rem 1.5rem var(--skills);
+}
+.spec_feact span {
+  -webkit-text-decoration: underline 5rem var(--light);
+          text-decoration: underline 5rem var(--light);
+}
+
+.special {
+  margin: 40rem 200rem;
   display: flex;
-  margin: 20rem 20rem;
+  flex-direction: row;
+  gap: 100rem;
+  font: "Rasa Medium";
+  font-size: 20rem;
+}
+.special__features {
+  display: flex;
+  border: 2rem solid var(--skills);
+  box-shadow: 2rem 2rem var(--skills);
+  padding: 1rem 20rem;
+  border-radius: 5rem;
+  width: 50%;
+  height: 60rem;
+  align-items: center;
+  gap: 30rem;
 }/*# sourceMappingURL=main.css.map */
