@@ -19,7 +19,7 @@
       max-width: fit-content;
       padding: 5rem 15rem;
       font-size: 18rem;
-      font-family: "Rasa Semi";
+      font-family: "Inter Regular";
     }
 
     &--Money_finger {
@@ -38,7 +38,7 @@
       p {
         //text-align: justify;
         font-size: 18rem;
-        font-family: "rasa";
+        font-family: "Inter Regular";
         color: var(--joy);
       }
 
@@ -52,6 +52,7 @@
           font-size: 12rem;
           background-color: var(--excited);
           color: var(--skills);
+          margin-top: 25rem;
         }
 
         :last-child {
@@ -89,10 +90,27 @@
       }
     }
   }
-}
 
-// &__child2 {
-//   border: 2rem solid var(--skills);
-//   max-width: fit-content;
-//   border-radius: 5rem;
-// }
+  &__child2 {
+    border: 2rem solid var(--skills);
+    max-width: fit-content;
+    border-radius: 5rem;
+
+    :first-child {
+      align-items: center;
+    }
+
+    :last-child {
+      font-family: "Rasa";
+      border: 2rem solid var(--skills);
+      border-radius: 5rem;
+      padding: 10rem 20rem;
+      box-shadow: 2rem 2rem var(--skills);
+      font-size: 30rem;
+      background-color: var(--elated);
+      position: absolute;
+      // translate: -600px -40px 8rem;
+      transform: translate(-600px, 400px);
+    }
+  }
+}
