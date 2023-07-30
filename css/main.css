@@ -563,4 +563,18 @@ h1 {
   background-color: var(--elated);
   position: absolute;
   transform: translate(-600px, 400px);
+}
+
+.payment_schemes {
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 40rem;
+  padding-right: 40rem;
+  margin-top: 70rem;
+  background-color: var(--excited);
+}
+
+.features {
+  display: flex;
+  margin: 20rem 20rem;
 }/*# sourceMappingURL=main.css.map */
