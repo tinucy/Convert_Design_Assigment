@@ -651,4 +651,17 @@ h1 {
 .review__card h5 {
   font-family: "Inter Medium";
   font-size: 8rem;
+}
+
+.Virtual__cards {
+  display: flex;
+  background-color: var(--skills);
+  justify-content: flex-end;
+}
+.Virtual__cards :first-child {
+  padding: 20rem 200rem;
+  color: var(--happy);
+}
+.Virtual__cards :last-child {
+  margin: 20rem 200rem;
 }/*# sourceMappingURL=main.css.map */

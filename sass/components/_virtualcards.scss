@@ -1,0 +1,14 @@
+.Virtual__cards {
+  display: flex;
+  background-color: var(--skills);
+  justify-content: flex-end;
+
+  :first-child {
+    padding: 20rem 200rem;
+    color: var(--happy);
+  }
+
+  :last-child {
+    margin: 20rem 200rem;
+  }
+}
