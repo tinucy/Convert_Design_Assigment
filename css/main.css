@@ -618,11 +618,25 @@ h1 {
   gap: 30rem;
 }
 
+.review__head {
+  max-width: 400rem;
+  margin: auto;
+  padding: 90rem 0rem;
+}
+.review__head--h2 {
+  font-family: "Rasa";
+  font-size: 30rem;
+}
+.review__head--p {
+  font-family: "Inter Medium";
+  font-size: 10rem;
+  color: var(--joy);
+  padding: 10rem 35rem;
+}
+
 .review {
   display: flex;
-  margin-top: 80rem;
-  margin-left: 200rem;
-  margin-right: 200rem;
+  margin: 0 200rem;
   gap: 25rem;
 }
 .review h2 {
