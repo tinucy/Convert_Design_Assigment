@@ -1,14 +1,35 @@
 .Virtual__cards {
   display: flex;
   background-color: var(--skills);
-  justify-content: flex-end;
+  padding: 20rem 180rem;
 
-  :first-child {
-    padding: 20rem 200rem;
+  &__details {
     color: var(--happy);
+    margin: 80rem 20rem;
+    display: flex;
+    flex-direction: column;
+
+    gap: 30rem;
+
+    &--h3 {
+      font-family: "Rasa";
+      font-size: 30rem;
+    }
+
+    &--h6 {
+      font-family: "Inter Medium";
+    }
+
+    &--button {
+      display: flex;
+      border-radius: 5rem;
+      background-color: var(--elated);
+      color: var(--skills);
+      padding: 10rem 25rem;
+    }
   }
 
   :last-child {
-    margin: 20rem 200rem;
+    margin: 0rem 160rem;
   }
 }

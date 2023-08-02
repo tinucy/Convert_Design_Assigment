@@ -656,12 +656,29 @@ h1 {
 .Virtual__cards {
   display: flex;
   background-color: var(--skills);
-  justify-content: flex-end;
+  padding: 20rem 180rem;
 }
-.Virtual__cards :first-child {
-  padding: 20rem 200rem;
+.Virtual__cards__details {
   color: var(--happy);
+  margin: 80rem 20rem;
+  display: flex;
+  flex-direction: column;
+  gap: 30rem;
+}
+.Virtual__cards__details--h3 {
+  font-family: "Rasa";
+  font-size: 30rem;
+}
+.Virtual__cards__details--h6 {
+  font-family: "Inter Medium";
+}
+.Virtual__cards__details--button {
+  display: flex;
+  border-radius: 5rem;
+  background-color: var(--elated);
+  color: var(--skills);
+  padding: 10rem 25rem;
 }
 .Virtual__cards :last-child {
-  margin: 20rem 200rem;
+  margin: 0rem 160rem;
 }/*# sourceMappingURL=main.css.map */
