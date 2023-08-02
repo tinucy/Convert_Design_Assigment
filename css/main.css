@@ -695,4 +695,21 @@ h1 {
 }
 .Virtual__cards :last-child {
   margin: 0rem 160rem;
+}
+
+.download {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--elated);
+  margin-top: 70rem;
+  padding: 100rem 0;
+}
+.download h2 {
+  font-family: "Rasa";
+  font-size: 30rem;
+  margin-bottom: 10rem;
+}
+.download h6 {
+  font-family: "Inter Medium";
 }/*# sourceMappingURL=main.css.map */
